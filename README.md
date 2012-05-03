@@ -37,9 +37,26 @@ An example project is below. Your project should generally conform to this one,
 use the same styles, etc.
 
 ```html
+<hr class="divider">
+<div class="project">
+	<div class="description">
+		<h2>Project Name</h2>
+		<h3>Techa@NYU member's names<i class="alumni"></i></h3>
+		<p>
+			One sentence description. Followed by a longer, in depth description that
+			is 300 characters or less.
+		</p>
+		<p>
+			<a class="live_link" href="linktoyourproject.com">http://linktoyourproject.com</a>
+		</p>
+	</div>
+	<div class="image">
+		<img src="/img/imageyouadded.jpg" />
+	</div>
+</div>
 ```
 
-* Project description should be XXX chars or less
+* Project description should be 300 chars or less
 * You MUST have a project image (but it can be anything) and it should be 380 by 260 px.
 * Save the earth and keep load times down by keeping your image to 30kb or less.
 
@@ -49,4 +66,4 @@ What goes on the list?
 * One project per Tech@NYU member (i.e., post your best one, not all of them)
 * "Shipped" means available for public consumption. If it's a library, that means posting to GitHub, if it's a product, that means having the product in a live public beta, etc. No private stuff/launchrock pages count as "shipped".
 * There is no project too small or too large, as long as it's shipped.
-* Alumni projects are OK, but should follow all the other rules as well.
+* Alumni projects are OK, but should follow all the other rules as well. Put an alumni tag next to alumni names.
