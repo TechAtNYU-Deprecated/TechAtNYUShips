@@ -6,7 +6,7 @@ It's a gallery of awesome stuff Tech@NYU members have done. Tech@NYU is the
 "entrepreneurship club at NYU that ships" so let's show it off. It's sort of like
 a one-topic site (a la [http://istheltrainfucked.com/](http://istheltrainfucked.com/)).
 
-It is live at [http://techatnyuships.com/](http://techatnyuships.com)
+It is live at [http://techatnyuships.heroku.com/](http://techatnyuships.heroku.com)
 
 ![http://imgur.com/zpbwN.gif](http://imgur.com/zpbwN.gif)
 
