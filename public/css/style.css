@@ -1,0 +1,76 @@
+body {
+	background: #C87548;
+	color: #F0F2DF;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 600%;
+	margin: .25em 0;
+	color: #63342C;
+}
+
+p {
+	font-size: 150%;
+	line-height: 1.5;
+}
+
+blockquote {
+	font-size: 200%;
+	font-style: italic;
+	opacity: .7;
+	margin: 1em 1em 0 1em;
+}
+
+.caption {
+	margin: 0 1em 1em 1.3em;
+}
+
+.divider {
+	border: 1px solid rgba(255,255,255,.3);
+	clear: both;
+}
+
+.project {
+	clear: both;
+}
+
+.description {
+	float: left;
+	width: 380px;
+	padding: 10px;
+	font-size: 66%;
+}
+
+.description h2 {
+	font-size: 2em;
+	margin: .25em 0;
+}
+
+.description h3 {
+	font-size: 1.5em;
+	margin: .25em 0;
+	opacity: .8;
+}
+
+a, a:visited {
+	color: #63342C;
+	opacity: .7;
+}
+
+.image {
+	float: right;
+	width: 380px;
+	padding: 10px;
+}
+
+i.alumni:after {
+	content:url(/img/alumni.png);
+	opacity: .3;
+	margin-left: 10px;
+}
+
