@@ -96,6 +96,10 @@ i.alumni:after {
 	padding: 10px;
 }
 
+.clear {
+	clear: both;
+}
+
 .centered {
 	text-align: center;
 }
