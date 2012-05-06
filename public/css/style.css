@@ -85,6 +85,9 @@ blockquote:after {
 
 a, a:visited {
 	color: #F0F2DF;
+}
+
+.live_link {
 	opacity: .7;
 }
 
@@ -92,6 +95,10 @@ a, a:visited {
 	content:url(/img/external.png);
 	opacity: .5;
 	margin-left: 5px;
+}
+
+img:hover {
+	opacity: .9;
 }
 
 .image {
@@ -150,6 +157,7 @@ i.alumni:after {
 	opacity: 1;
 	box-shadow: 3px 3px 5px rgba(0,0,0,.4),
 							inset 0px 1px rgba(255,255,255,.1);
+	text-shadow: 3px 3px 2px rgba(0, 0, 0, .1);
 }
 
 .button:hover {
