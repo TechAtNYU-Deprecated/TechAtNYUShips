@@ -139,6 +139,7 @@ i.alumni:after {
 	margin: 0 auto;
 	display: block;
 	width: 175px;
+	font-family: 'PT Sans';
 	font-size: 24px;
 	padding: 10px 50px;
 	text-align: center;
@@ -147,6 +148,8 @@ i.alumni:after {
 	border: 1px solid rgba(99,52,44,.85);
 	border-radius: 10px;
 	opacity: 1;
+	box-shadow: 3px 3px 5px rgba(0,0,0,.4),
+							inset 0px 1px rgba(255,255,255,.1);
 }
 
 .button:hover {
