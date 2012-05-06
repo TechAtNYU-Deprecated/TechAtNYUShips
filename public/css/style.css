@@ -19,11 +19,37 @@ p {
 	line-height: 1.5;
 }
 
+.quote {
+	position: relative;
+}
+
 blockquote {
-	font-size: 200%;
+	font-size: 190%;
 	font-style: italic;
 	opacity: .7;
 	margin: 1em 1em 0 1em;
+}
+
+blockquote:before {
+	content: "\201C";
+	font-size: 400%;
+	opacity: .3;
+	z-index: -100;
+	left: -35px;
+	top: -30px;
+	width: 100px;
+	position: absolute;
+}
+
+blockquote:after {
+	content: "\201D";
+	font-size: 400%;
+	opacity: .3;
+	z-index: -100;
+	left: 700px;
+	top: -30px;
+	position: absolute;
+	width: 100px;
 }
 
 .caption {
@@ -48,7 +74,7 @@ blockquote {
 
 .description h2 {
 	font-size: 3em;
-	margin: .25em 0;
+	margin: .25em 0 0 0;
 }
 
 .description h3 {
@@ -72,6 +98,11 @@ a, a:visited {
 	float: right;
 	width: 380px;
 	padding: 10px;
+}
+
+img {
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px rgba(0,0,0,.4);
 }
 
 i.alumni:after {
