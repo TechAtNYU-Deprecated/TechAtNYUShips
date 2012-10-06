@@ -1,6 +1,16 @@
+@font-face {
+    font-family: Systopia;
+    src: url(/fonts/systopie_regular.otf);
+    font-weight:400;
+}
+
 body {
-	background: #C87548;
-	color: #F0F2DF;
+	background: white;
+	color: #333;
+}
+
+html, button, input, select, textarea {
+font-family: "Open Sans";
 }
 
 .container {
@@ -11,7 +21,7 @@ body {
 h1 {
 	font-size: 600%;
 	margin: .25em 0;
-	color: #63342C;
+	font-family: Systopia;
 }
 
 p {
@@ -24,10 +34,11 @@ p {
 }
 
 blockquote {
-	font-size: 190%;
+	font-size: 180%;
 	font-style: italic;
 	opacity: .7;
 	margin: 1em 1em 0 1em;
+	color: #777;
 }
 
 blockquote:before {
@@ -84,7 +95,7 @@ blockquote:after {
 }
 
 a, a:visited {
-	color: #F0F2DF;
+	color: #00BCF2;
 }
 
 .live_link {
@@ -146,13 +157,14 @@ i.alumni:after {
 	margin: 0 auto;
 	display: block;
 	width: 175px;
-	font-family: 'PT Sans';
+	font-family: 'Open Sans', 'PT Sans', sans-serif;
 	font-size: 24px;
 	padding: 10px 50px;
 	text-align: center;
 	text-decoration: none;
-	background: rgba(99,52,44,.7);
-	border: 1px solid rgba(99,52,44,.85);
+	background: #999;
+	border: #777;
+	color: white !important;
 	border-radius: 10px;
 	opacity: 1;
 	box-shadow: 3px 3px 5px rgba(0,0,0,.4),
@@ -161,7 +173,7 @@ i.alumni:after {
 }
 
 .button:hover {
-	background: rgba(109,62,54,.7);
+	background: #333;
 }
 
 .footer {
